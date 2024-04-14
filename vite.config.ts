@@ -13,6 +13,7 @@ export default defineConfig({
       symbolId: 'icon-[dir]-[name]'
     }),
   ],
+  base: '/',
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src/")
